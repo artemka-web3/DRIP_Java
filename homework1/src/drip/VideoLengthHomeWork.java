@@ -23,7 +23,7 @@ public class VideoLengthHomeWork {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите время в формате mm:ss");
+        System.out.println("Введите время в формате mm:ss");
         String input = scanner.nextLine();
         System.out.println(minutesToSeconds(input));
     }
